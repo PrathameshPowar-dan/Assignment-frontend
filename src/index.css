@@ -1,0 +1,8 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
