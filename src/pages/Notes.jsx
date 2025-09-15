@@ -5,7 +5,7 @@ import { Context } from "../context/authContext.jsx";
 
 const API_BASE = window.location.hostname.includes('localhost')
   ? 'http://localhost:5000'
-  : 'https://your-backend-app.vercel.app';
+  : 'https://assignment-backend-teal.vercel.app';
 
 export default function Notes() {
   const [notes, setNotes] = useState([]);

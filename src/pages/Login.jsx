@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const API_BASE = window.location.hostname.includes('localhost') 
   ? 'http://localhost:5000' 
-  : 'https://your-backend-app.vercel.app';
+  : 'https://assignment-backend-teal.vercel.app';
 
 function Login() {
     const [DATA, setDATA] = useState({
